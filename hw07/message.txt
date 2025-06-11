@@ -1,0 +1,43 @@
+Review the results of splitting the long text into several short texts.
+
+
+========== The 1-st segment of the split (510 words) ==========
+
+
+ 這是不可能的 This can't all be true.  每一句 Every word.  中央情報局的黑暴破壞 A CIA black fault
+
+break-in.  這是我正在讀的 Am I reading this correctly?  克林林爆發 The Kremlin bombing?  坦白說
+
+In fairness, the bomb was actually meant to kill him.  他發出了一個安全報告 He gassed a
+
+security briefing.  這是兩年前的 That was just two months ago.  這是解釋了手機的 This explains
+
+the handcuffs.  還不清楚他在這裡 It's still not clear why he's here.  如果我們想把世界從頭開始帶回 If
+
+we want to bring the world back from the brink.  我們必須跟他處理 We have to deal with
+
+him.  應該選擇接受 Should he choose to
+
+
+========== The 2-nd segment of the split (512 words) ==========
+
+
+accept?  每一邊的聰明人物 Smart people on every side are close to panicking.  什麼就是你的計劃
+
+What exactly is your plan?  你們的隊伍被誤會了 Your team has been betrayed, Ethan.
+
+所有祕密都被擴散了 All your secrets compromised.  每一件事你都做了 Everything you are.  都做到了
+
+Everything you've done.  都到了 This has come to this.  你給他一個飛行機 You gave him an
+
+aircraft carrier?  我們的生命是我們選擇的 Our lives are the sum of our choices.  這是我們要求的
+
+This is what we're calling.  你的命運 Your destiny.  我沒有懺悔 I have no regrets.
+
+但我對你很欣賞 You have no regrets.  但我對你很欣賞 But I do have
+
+
+========== The 3-rd segment of the split (64 words) ==========
+
+
+a feeling.  我需要你相信我 I need you to trust me.  一次一次 One last time.
