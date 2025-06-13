@@ -154,7 +154,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      這次的作業比較花時間的地方在於ComfyUI頁面載入與影片生成，整體而言跟作業四差異不大，只差在工作流程的不同而已，透過自己寫的動作提示詞讓角色在影片中栩栩如生，最後再將自己做出來的成果上傳至自己的github，方能完成此作業。
     </div>
   </div>
 
@@ -170,22 +170,23 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - Comfy UI 環境設定完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - 生成角色的圖片</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - 生成完整角色動畫
+</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -197,12 +198,56 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <a href="https://civitai.com/models/1630373/redefine-experimental?modelVersionId=1845324">CheckPoint:ReDefine-Experimental</a><br>
+      <a href="https://civitai.com/api/download/models/1875067?type=Model&format=SafeTensor&size=pruned&fp=fp16">Lora:  CompassionMix</a><br> 
+       <td>1.Simple baseline - Comfy UI 環境設定完成</td><br>
+       <img src="1.png"  width="800" height="200"><br>
     </div>
   </div>
-
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+       <td>2.Medium baseline - 生成角色的圖片</td><br>
+       <img src="2.png"  width="500" height="600"><br>
+       <td> 使用提示詞:
+      "0": "early morning, soft sunrise, quiet European street, girl in beige trench coat, holding a coffee cup, light mist in the air",
+  "10": "late morning, walking through a modern glass city, girl in casual blazer and sneakers, looking up at skyscrapers, gentle breeze",
+  "20": "noon, sunny outdoor market, girl in sleeveless dress and straw bag, browsing fruit stands, vibrant umbrellas and people",
+  
+  "30": "afternoon, old alleyway with stone walls, girl in denim jacket and pleated skirt, taking photos with a film camera, cats nearby",
+  "40": "late afternoon, urban rooftop, girl in sporty hoodie and shorts, wind blowing, city skyline in background, golden lighting",
+  "50": "sunset, train platform, girl in long coat and backpack, waiting for train, warm orange sky, birds flying past",
+  
+  "60": "twilight, walking along riverside, girl in flowy navy dress, glowing city lights reflected in water, soft wind",
+  "70": "early evening, neon-lit street in East Asia, girl in light bomber jacket, bubble tea in hand, passing scooters and lights",
+  "80": "evening, quiet bookstore with warm lamps, girl in wool sweater and beret, flipping through pages, cozy atmosphere",
+  
+  "90": "night, light rain, under transparent umbrella, girl in black coat and boots, reflections on wet pavement, soft jazz vibe",
+  "100": "late night, walking past a lit bridge, girl in long dark cloak, soft fog, moon glowing above",
+  "110": "midnight, on a balcony overlooking the city, girl in pajamas and blanket wrapped around, sipping tea, stars overhead"</td>
+    </div>
+  </div>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+       <td>3.Strong baseline - 生成完整角色動畫</td><br>
+       <img src="3.gif" ><br>
+       <td> 使用提示詞:
+      "0": "early morning, soft sunrise, quiet European street, girl in beige trench coat, holding a coffee cup, light mist in the air",
+  "10": "late morning, walking through a modern glass city, girl in casual blazer and sneakers, looking up at skyscrapers, gentle breeze",
+  "20": "noon, sunny outdoor market, girl in sleeveless dress and straw bag, browsing fruit stands, vibrant umbrellas and people",
+  
+  "30": "afternoon, old alleyway with stone walls, girl in denim jacket and pleated skirt, taking photos with a film camera, cats nearby",
+  "40": "late afternoon, urban rooftop, girl in sporty hoodie and shorts, wind blowing, city skyline in background, golden lighting",
+  "50": "sunset, train platform, girl in long coat and backpack, waiting for train, warm orange sky, birds flying past",
+  
+  "60": "twilight, walking along riverside, girl in flowy navy dress, glowing city lights reflected in water, soft wind",
+  "70": "early evening, neon-lit street in East Asia, girl in light bomber jacket, bubble tea in hand, passing scooters and lights",
+  "80": "evening, quiet bookstore with warm lamps, girl in wool sweater and beret, flipping through pages, cozy atmosphere",
+  
+  "90": "night, light rain, under transparent umbrella, girl in black coat and boots, reflections on wet pavement, soft jazz vibe",
+  "100": "late night, walking past a lit bridge, girl in long dark cloak, soft fog, moon glowing above",
+  "110": "midnight, on a balcony overlooking the city, girl in pajamas and blanket wrapped around, sipping tea, stars overhead"</td>
+    </div>
+  </div>
   <!-- ------------------------------------------------>
 
   <!-- ------------------------------------------------>
